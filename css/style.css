@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#aboutus .picture{
+    width: 40%;
+
+}
+
+#aboutus .picture img{
+    width: 100%;
+
+}
+
+#aboutus .description{
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 102px;
+   
+}
+#aboutus .description h1{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+}
+
+#aboutus .description p{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 21px 0;
+    color: #aeaeae;
+
+}
+
+#aboutus .world span{
+    line-height: 40px;
+
+}
+
+#aboutus table{
+    display: inline-block;
+}
+
+#aboutus .service-test{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    flex-wrap: wrap;
+}
+
+#aboutus .service-test .box_1{
+    width: 50%;
+   
+}
+
+#skills{
+    margin-top: 55px;
+}
+
+#skills .myskills{
+    width: 50%;
+    
+    
+}
+
+#skills .myskills h3{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+
+} 
+ .first{
+    color: #919191;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 45px 0;
+
+}
+
+#skills .myskills .second{
+    color: #919191;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 15px 0;
+
+}
+
+#skills .contact{
+    margin: 45px 0px;
+}
+#skills .contact a{
+    text-decoration: none;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 20px  37px;
+
+}
+
+#resume{
+    background-color: #f1f1f1;
+    margin-top: 60px;
+}
+
+#resume .heading{
+    text-align: center;
+    padding: 67px 0;
+   
+}
+
+#resume .heading h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+    
+
+}
+
+#resume .heading p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #919191;
+    font-size: 18px;
+    margin: 34px 0px;
+}
+
+#resume .download{
+    margin-top: 55px;
+}
+
+#resume .download a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    text-transform: uppercase;
+    padding: 20px 19px;
+}
+ .education h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #566366;
+    padding-top: 56px;
+    text-transform: uppercase;
+
+}
+ /* .row{
+    justify-content: space-between;
+    
+} */
+
+ .education p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #919191;
+
+}
+
+ .education{
+    width: 50%;
+}
+
+ .diploma{
+    
+    width: 50%;
+
+}
+/* #design{
+    background-color: #2ecc71;
+    
+
+} */
+
+
+ .diploma h1{
+    
+    font-size: 22px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #566366;
+    padding-top: 144px;
+    text-transform: uppercase;
+    
+    
+}
+
+ .diploma p{
+    font-size: 18px;
+    color: #919191;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+ .diploma span{
+    background-color: #2ecc71;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 11px;
+}
+
+hr{
+    margin-top: 45px;
+}
+
+
+.diploma .first_para{
+    margin: 68px 0px;
+}
+
+#john{
+    background-color: #f1f1f1;
+    height: 415px;
+}
+#john .container{
+    height: 100%;
+}
+
+#john .heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+}
+#john p{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #989898;
+    padding: 43px 0px;
+}
+
+#john span{
+    color: #566366;
+}
+#Contact_form{
+    background-color: #252d2f;
+
+}
+
+#Contact_form  h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 100px;
+
+
+
+
+
+
+}
+
+#Contact_form p{
+    color: #919191;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 47px 0px;
+
+}
+
+#Contact_form address{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #919191;
+
+}
+
+
+
+#Contact_form .contact_me{
+    width: 50%;
+    
+
+}
+footer{
+    height: 173px;
+    background-color: black;
+    
+    
+}
+footer .heading{
+    text-align: center;
+    color: #ffffff;
+    padding: 23px 0px;
+}
+
+footer .container{
+    height: 100%;
+    
+    
+}
+
+
+footer .row{
+    flex-direction: column;
+    background-color: #566366;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+footer .icon{
+    text-align: center;
+    
+}
+
+footer .icon span{
+    margin-right: 3px;
+    background-color: white;
+    display: inline-block;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    
+
+    
+}
+
+footer .main{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
